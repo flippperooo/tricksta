@@ -56,12 +56,12 @@ body {
 	height:336px;
 	background-color: var(--grey);
 }
-.signUp {
+.signUpSection {
 	display:flex;
 	flex-direction:column;
 	align-items:center;
 }
-.signUp p{
+.signUpSection{
 	font-family: Sono;
 	font-style: normal;
 	font-weight: 400;
@@ -95,4 +95,11 @@ button{
 	font-size:41px;
 	background-color: var(--grey);
 }
-
+.accountCreationHeader{
+	text-align: center;
+}
+.signUpForm{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
