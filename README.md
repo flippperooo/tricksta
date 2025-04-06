@@ -5,15 +5,20 @@ but as of right now the concept is simple.
 this will be a social media site/app for tricksters.
 or object manipulators.
 or skill toy enthueists. whatever you wanna call them.
+
 name undecided
+
 this site/app will be for them.
 at first just a tiktok for tricksters
+
 the grandious idea is that it can be a way for people to 
 claim 'ownership' of tricks.
 like hey i did that first and i uploaded it here so im the founder now.
+
 although my beleif is that all tricks already existed, so nobody is 
 'inventing' tricks. we are just finding them. i still think it would 
 be fun to have like a common resource for finding WHO did the tricks first.
+
 now this idea is way beyond my skillset as of today, but the intention is 
 to continouslly learn and grow into that idea. so orginizing the early mindset 
 i think is important.
