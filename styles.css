@@ -40,7 +40,22 @@ body {
 }
 .parent1 {
 	display: flex;
-	justify-content:space-around;
+	justify-content: space-around;
+}
+@media (max-width:1200px){
+	.parent1{
+		flex-direction: column;
+	}
+	.options{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+.options{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .options h1 {
 	font-family:Sono;
@@ -53,6 +68,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	font-size:41px;
+	width:17ch;
 }
 .options img{
 	width:478px;
@@ -69,6 +85,9 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	font-size:41px;
+}
+.signUpSection p{
+	width:min(46ch, 80vw);
 }
 .moreInfo{
 	display: flex;
@@ -90,9 +109,21 @@ body {
 .moreInfo a:hover{
 	color:white;
 }
-button{
+.homeButton{
 	width: min(65.5vw, 630px);
-  height: min(11.5vw, 110px);
+	height: min(11.5vw, 110px);
+	border:none;
+	border-radius: 70px;
+	font-family: Sono;
+	font-style: normal;
+	font-weight: 400;
+	font-size: min(2.8vw, 1em);	
+	background-color: var(--grey);
+	margin-top:3em;
+}
+.createAccountButton{
+	width: min(65.5vw, 630px);
+	height: min(11.5vw, 110px);
 	border:none;
 	border-radius: 70px;
 	font-family: Sono;
@@ -130,6 +161,7 @@ button:hover{
 	font-family: Sono;	
 	font-size: min(3em, 5vw);
 	margin-bottom: 3px;
+	margin-top: 1em;
 }
 .signUpForm input{
 	background-color: var(--grey);
