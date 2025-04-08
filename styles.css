@@ -21,7 +21,7 @@ body {
 }
 .navBar {
 	display:flex;
-	height:200px;
+	height:min(20vw, 200px);
 	justify-content:center;
 	align-items:center;
 	background-color:var(--headercolor);
@@ -34,6 +34,9 @@ body {
 	color:var(--lighttextcolor);
 	padding:0;
 	margin:0;
+}
+.navBar a{
+	text-decoration: none;
 }
 .parent1 {
 	display: flex;
@@ -71,35 +74,66 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 7em 0;
 }
 .moreInfo p,a{
 	font-family: Sono;
 	font-style: normal;
 	font-weight: 400;
-	font-size:41px;
+	font-size:min(4.2vw, 41px);
 }
 .moreInfo a{
 	color:black;
+	margin-top:1em;
+	text-decoration: none;
 }
 .moreInfo a:hover{
 	color:white;
 }
 button{
-	width:630px;
-	height: 110px;
+	width: min(65.5vw, 630px);
+  height: min(11.5vw, 110px);
 	border:none;
 	border-radius: 70px;
 	font-family: Sono;
 	font-style: normal;
 	font-weight: 400;
-	font-size:41px;
+	font-size: min(4.2vw, 2.5em);	
 	background-color: var(--grey);
+	margin-top:3em;
+}
+button:hover{
+	background-color: white;
 }
 .accountCreationHeader{
 	text-align: center;
+	font-family: Sono;
+	font-size:77px;
+}
+@media (max-width:956px){
+	.accountCreationHeader{
+		font-size: 8.1vw;
+	}
+	.navBar h1{
+	font-size: 11.2vw;
+	}
+	.moreInfo{
+		margin:11vw;
+	}
 }
 .signUpForm{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+.signUpForm p{
+	font-family: Sono;	
+	font-size: min(3em, 5vw);
+	margin-bottom: 3px;
+}
+.signUpForm input{
+	background-color: var(--grey);
+	font-family: Sono;
+	font-size:min(3em, 5vw);
+	border:none;
 }
